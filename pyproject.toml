@@ -1,6 +1,6 @@
 [project]
 name = "kilid-mcp"
-version = "0.1.1"
+version = "0.1.2"
 description = "Unofficial read-only MCP server for Kilid (kilid.com), the Iranian real-estate portal: buy and rent listings, districts, price per m2 statistics, agencies."
 readme = "README.md"
 license = "PolyForm-Noncommercial-1.0.0"
