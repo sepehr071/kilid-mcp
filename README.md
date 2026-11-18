@@ -83,10 +83,6 @@ Real answer (17 Nov 2026): `kl_price_stats(area="tehran")` returned a median of 
 - Kilid is a Next.js site and several tools read data embedded in its server-rendered pages. If Kilid renames those props, a tool can come back empty until the server is updated.
 - Heavy use and rate limits were not probed. Requests run two at a time with a short cache. It answers from abroad and from Iran.
 
-## How it works
-
-Kilid has no public API. The server calls the JSON routes the site's own pages use (`/api/search`, `/api/listings`, `/api/regions`, `/api/provinces`, `/api/neighborhoods/finder`, `/api/agency/suggest`) and reads the data embedded in its server-rendered pages (listing page one, listing detail, price reports, agencies). The routes were mapped in a real browser and every tool's output was checked in Chrome against the rendered kilid.com pages. Requests present Chrome's TLS fingerprint.
-
 ## فارسی
 
 <div dir="rtl">
